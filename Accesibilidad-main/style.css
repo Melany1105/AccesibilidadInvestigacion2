@@ -1,0 +1,81 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #626262;
+    position: relative;
+}
+main, footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content {
+    margin: 5px;
+    background-color: #dfb48ec8;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+} 
+
+.content h2 {
+    margin: 0;
+}
+
+.content p {
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+.box__Importancia1 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 50vh; 
+}
+.box__Importancia{
+    width: 70%;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(238, 223, 208);
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.box__Principios{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+}
+.Principios{
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.Principios img{
+    max-width: 60%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #343a40;
+    color: white;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
